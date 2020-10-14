@@ -1,0 +1,29 @@
+@media screen and (min-width: 349px) {
+  .overlay {
+    width: 300px !important;
+  }
+}
+
+/* @media screen and (min-width: 350px) and (max-width: 575px) {
+  .overlay {
+    background: red;
+  }
+} */
+
+@media screen and (min-width: 576px) {
+  .overlay {
+    width: 300px !important;
+  }
+}
+
+/* @media screen and (min-width: 769px) and (max-width: 990px) {
+  .overlay {
+    background: black;
+  }
+}
+*/
+@media screen and (min-width: 991px) {
+  .overlay {
+    width: 350px !important;
+  }
+}
