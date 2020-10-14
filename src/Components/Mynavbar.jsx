@@ -16,17 +16,25 @@ class Mynavbar extends Component {
       <Navbar
         style={{ zIndex: 9 }}
         bg="light"
+        expand="lg"
         variant="light"
         className="ml-10 sticky-top"
       >
         <Navbar.Brand href="#home">
           <Image style={{ height: 55, width: 100 }} src={logo2} />
         </Navbar.Brand>
-        <Nav className="mr-auto"></Nav>
-        <Form inline>
-          <Button variant="light">Home</Button>
-          <Button variant="warning">Sign In Sign up</Button>{" "}
-        </Form>
+
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link>
+              <Button variant="light">Home</Button>
+            </Nav.Link>
+            <Nav.Link>
+              <Button variant="warning">Sign In Sign up</Button>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     );
   }

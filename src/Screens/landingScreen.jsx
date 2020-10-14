@@ -706,13 +706,13 @@ class landingScreen extends Component {
                   }
                 }
               >
-                <Col style={{}} sm></Col>
-                <Col style={{}} sm></Col>
-                <Col style={{}} sm>
+                {/* <Col sm></Col>
+                <Col sm></Col> */}
+                <Col md={{ span: 6, offset: 6 }} lg={{ span: 4, offset: 8 }} sm>
                   <br />
                   <br />
                   <br />
-                  <div className="text-md-right p-3">
+                  <div className="w-100 text-md-right p-3 ">
                     <h1 style={{ color: "white", paddingRight: 100 }}>
                       BENEFITS
                     </h1>
@@ -751,8 +751,12 @@ class landingScreen extends Component {
               <Container>
                 <Row>
                   <Col
-                    style={{ backgroundColor: "#2a2e40", borderRadius: 10 }}
-                    sm
+                    style={{
+                      backgroundColor: "#2a2e40",
+                      borderRadius: 10,
+                      wordWrap: "break-word",
+                    }}
+                    md
                   >
                     <br />
                     <h3 style={{ color: "white" }}>COMPATIBLE APP</h3>
@@ -766,8 +770,12 @@ class landingScreen extends Component {
                     </p>
                   </Col>
                   <Col
-                    style={{ backgroundColor: "white", borderRadius: 10 }}
-                    sm
+                    style={{
+                      backgroundColor: "white",
+                      borderRadius: 10,
+                      wordWrap: "break-word",
+                    }}
+                    md
                   >
                     <br />
                     <h3 style={{ color: "#2a2e40" }}>REWARDS</h3>
@@ -780,8 +788,12 @@ class landingScreen extends Component {
                     </p>
                   </Col>
                   <Col
-                    style={{ backgroundColor: "#af8d59", borderRadius: 10 }}
-                    sm
+                    style={{
+                      backgroundColor: "#af8d59",
+                      borderRadius: 10,
+                      wordWrap: "break-word",
+                    }}
+                    md
                   >
                     <br />
                     <h3 style={{ color: "white" }}>AUTO SYNCHRONIZATION</h3>
@@ -793,8 +805,12 @@ class landingScreen extends Component {
                     </p>
                   </Col>
                   <Col
-                    style={{ backgroundColor: "#2a2e40", borderRadius: 10 }}
-                    sm
+                    style={{
+                      backgroundColor: "#2a2e40",
+                      borderRadius: 10,
+                      wordWrap: "break-word",
+                    }}
+                    md
                   >
                     <br />
                     <h3 style={{ color: "white" }}>Challenges</h3>
