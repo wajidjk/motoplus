@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0 !important ;
+}
+.custom-switch {
+  padding-left: 0 !important;
+}
+.custom-control {
+  padding-left: 0 !important;
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+input:focus {
+  outline: none !important;
+  border: none !important;
+}
